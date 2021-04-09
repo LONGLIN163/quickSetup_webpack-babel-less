@@ -1,0 +1,22 @@
+{
+    "name": "webpack_study",
+    "version": "1.0.0",
+    "description": "",
+    "main": "webpack.config.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.13.15",
+        "@babel/preset-env": "^7.13.15",
+        "babel-loader": "^8.2.2",
+        "css-loader": "^5.2.0",
+        "less": "^4.1.1",
+        "less-loader": "^8.0.0",
+        "style-loader": "^2.0.0",
+        "webpack": "^5.31.0"
+    },
+    "dependencies": {}
+}

@@ -1,0 +1,17 @@
+### ignore files from current integration tool  ###
+
+### Node ###
+# Logs
+logs
+*.log
+npm-debug.log*
+node_modules
+
+
+### IDE ###
+.idea
+.vscode
+
+### Webpack ###
+dist/all.js
+

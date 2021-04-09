@@ -1,0 +1,22 @@
+
+@c:red;
+@w:200px;
+@h:300px;
+
+ .box{
+	 background-color: @c;
+	 height:@h;
+	 width: @w;
+ }
+
+ header{
+	 .box2{
+		 .box;
+		 width: 200px;
+		 background-color: blue;
+		 transition: all 1s+2s;
+		 &:hover{
+			 width :600px;
+		 }
+	 }
+ }
