@@ -1,7 +1,7 @@
 
 ### Notice
 
-1. Fail to uninstall old version babel and can not install new version.
+1. Fail to uninstall old version babel and can not install new version?.
 
 ```bash
 
@@ -16,6 +16,34 @@
 >Set model is essential.
 
 ```
+
+### Set up
+
+Install globle webpack for excute webpack cmd in terminal:
+
+```bash
+
+$ npm install webpack -g
+
+```
+
+Install rest of dependencies
+
+```bash
+
+$ npm install
+
+```
+
+### Run
+
+```bash
+
+$ webpack
+
+```
+
+
 
 
 
